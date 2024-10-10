@@ -1,0 +1,208 @@
+2024-09-12T08:41:59.482172+00:00 mainframe systemd-logind[924]: New seat seat0.
+2024-09-12T08:41:59.482175+00:00 mainframe systemd-logind[924]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-09-12T08:41:59.482185+00:00 mainframe systemd-logind[924]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2024-09-12T08:41:59.522455+00:00 mainframe polkitd[886]: Loading rules from directory /etc/polkit-1/rules.d
+2024-09-12T08:41:59.525139+00:00 mainframe polkitd[886]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-09-12T08:41:59.531782+00:00 mainframe polkitd[886]: Finished loading, compiling and executing 16 rules
+2024-09-12T08:41:59.533212+00:00 mainframe polkitd[886]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-09-12T08:42:01.448569+00:00 mainframe useradd[1298]: new group: name=johnnymusk, GID=1000
+2024-09-12T08:42:01.448650+00:00 mainframe useradd[1298]: new user: name=johnnymusk, UID=1000, GID=1000, home=/home/johnnymusk, shell=/bin/bash, from=none
+2024-09-12T08:42:01.449087+00:00 mainframe useradd[1298]: add 'johnnymusk' to group 'adm'
+2024-09-12T08:42:01.449475+00:00 mainframe useradd[1298]: add 'johnnymusk' to group 'cdrom'
+2024-09-12T08:42:01.449530+00:00 mainframe useradd[1298]: add 'johnnymusk' to group 'sudo'
+2024-09-12T08:42:01.449552+00:00 mainframe useradd[1298]: add 'johnnymusk' to group 'dip'
+2024-09-12T08:42:01.449575+00:00 mainframe useradd[1298]: add 'johnnymusk' to group 'plugdev'
+2024-09-12T08:42:01.449596+00:00 mainframe useradd[1298]: add 'johnnymusk' to group 'users'
+2024-09-12T08:42:01.449618+00:00 mainframe useradd[1298]: add 'johnnymusk' to group 'lpadmin'
+2024-09-12T08:42:01.449656+00:00 mainframe useradd[1298]: add 'johnnymusk' to shadow group 'adm'
+2024-09-12T08:42:01.449680+00:00 mainframe useradd[1298]: add 'johnnymusk' to shadow group 'cdrom'
+2024-09-12T08:42:01.449701+00:00 mainframe useradd[1298]: add 'johnnymusk' to shadow group 'sudo'
+2024-09-12T08:42:01.449719+00:00 mainframe useradd[1298]: add 'johnnymusk' to shadow group 'dip'
+2024-09-12T08:42:01.449738+00:00 mainframe useradd[1298]: add 'johnnymusk' to shadow group 'plugdev'
+2024-09-12T08:42:01.449759+00:00 mainframe useradd[1298]: add 'johnnymusk' to shadow group 'users'
+2024-09-12T08:42:01.449776+00:00 mainframe useradd[1298]: add 'johnnymusk' to shadow group 'lpadmin'
+2024-09-12T08:42:03.813680+00:00 mainframe gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-09-12T08:42:03.833270+00:00 mainframe systemd-logind[924]: New session c1 of user gdm.
+2024-09-12T08:42:03.848226+00:00 mainframe (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-09-12T08:42:05.892026+00:00 mainframe polkitd[886]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-09-12T08:42:10.542797+00:00 mainframe gdm-password]: gkr-pam: unable to locate daemon control file
+2024-09-12T08:42:10.542952+00:00 mainframe gdm-password]: gkr-pam: stashed password to try later in open session
+2024-09-12T08:42:10.550876+00:00 mainframe gdm-password]: pam_unix(gdm-password:session): session opened for user johnnymusk(uid=1000) by johnnymusk(uid=0)
+2024-09-12T08:42:10.565043+00:00 mainframe systemd-logind[924]: New session 2 of user johnnymusk.
+2024-09-12T08:42:10.588346+00:00 mainframe (systemd): pam_unix(systemd-user:session): session opened for user johnnymusk(uid=1000) by johnnymusk(uid=0)
+2024-09-12T08:42:10.806557+00:00 mainframe gdm-password]: gkr-pam: unlocked login keyring
+2024-09-12T08:42:11.099366+00:00 mainframe gnome-keyring-daemon[2054]: The Secret Service was already initialized
+2024-09-12T08:42:11.099598+00:00 mainframe gnome-keyring-daemon[2222]: discover_other_daemon: 1
+2024-09-12T08:42:11.100518+00:00 mainframe gnome-keyring-daemon[2054]: The PKCS#11 component was already initialized
+2024-09-12T08:42:11.100863+00:00 mainframe gnome-keyring-daemon[2223]: discover_other_daemon: 1
+2024-09-12T08:42:11.108540+00:00 mainframe gnome-keyring-daemon[2227]: discover_other_daemon: 1
+2024-09-12T08:42:12.435262+00:00 mainframe polkitd[886]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-09-12T08:42:13.450293+00:00 mainframe gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-09-12T08:42:13.469144+00:00 mainframe systemd-logind[924]: Session c1 logged out. Waiting for processes to exit.
+2024-09-12T08:42:13.493266+00:00 mainframe polkitd[886]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-09-12T08:42:13.494414+00:00 mainframe systemd-logind[924]: Removed session c1.
+2024-09-14T21:39:12.690577+00:00 mainframe sudo: johnnymusk : TTY=pts/0 ; PWD=/home/johnnymusk ; USER=root ; COMMAND=/usr/bin/apt update
+2024-09-14T21:39:12.692625+00:00 mainframe sudo: pam_unix(sudo:session): session opened for user root(uid=0) by johnnymusk(uid=1000)
+2024-09-14T21:39:16.820827+00:00 mainframe sudo: pam_unix(sudo:session): session closed for user root
+2024-09-14T21:39:19.082286+00:00 mainframe sudo: johnnymusk : TTY=pts/0 ; PWD=/home/johnnymusk ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2024-09-14T21:39:19.083116+00:00 mainframe sudo: pam_unix(sudo:session): session opened for user root(uid=0) by johnnymusk(uid=1000)
+2024-09-14T21:39:21.613001+00:00 mainframe polkitd[886]: Reloading rules
+2024-09-14T21:39:21.613968+00:00 mainframe polkitd[886]: Collecting garbage unconditionally...
+2024-09-14T21:39:21.614004+00:00 mainframe polkitd[886]: Loading rules from directory /etc/polkit-1/rules.d
+2024-09-14T21:39:21.614024+00:00 mainframe polkitd[886]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-09-14T21:39:21.618924+00:00 mainframe polkitd[886]: Finished loading, compiling and executing 16 rules
+2024-09-14T21:39:21.618961+00:00 mainframe polkitd[886]: Reloading rules
+2024-09-14T21:39:21.618987+00:00 mainframe polkitd[886]: Collecting garbage unconditionally...
+2024-09-14T21:39:21.619005+00:00 mainframe polkitd[886]: Loading rules from directory /etc/polkit-1/rules.d
+2024-09-14T21:39:21.619023+00:00 mainframe polkitd[886]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-09-14T21:39:21.623310+00:00 mainframe polkitd[886]: Finished loading, compiling and executing 16 rules
+2024-09-14T22:39:30.727084+01:00 mainframe sudo: pam_unix(sudo:session): session closed for user root
+2024-09-14T22:39:34.053568+01:00 mainframe dbus-daemon[880]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2024-09-14T22:39:46.529273+01:00 mainframe polkitd[886]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2024-09-14T22:39:48.770405+01:00 mainframe polkitd[886]: Operator of unix-session:2 successfully authenticated as unix-user:johnnymusk to gain TEMPORARY authorization for action io.snapcraft.snapd.manage for unix-process:8502:10317 [snap install irssi] (owned by unix-user:johnnymusk)
+2024-09-14T22:39:58.475478+01:00 mainframe sudo: johnnymusk : TTY=pts/0 ; PWD=/home/johnnymusk ; USER=root ; COMMAND=/usr/bin/apt install qpdf python-is-python3 python3-pip libimage-exiftool-perl curl git thunderbird
+2024-09-14T22:39:58.475755+01:00 mainframe sudo: pam_unix(sudo:session): session opened for user root(uid=0) by johnnymusk(uid=1000)
+2024-09-14T22:40:27.403909+01:00 mainframe sudo: pam_unix(sudo:session): session closed for user root
+2024-09-14T22:45:01.586772+01:00 mainframe CRON[13970]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-09-14T22:45:01.588816+01:00 mainframe CRON[13970]: pam_unix(cron:session): session closed for user root
+2024-09-14T22:46:52.840146+01:00 mainframe sudo: johnnymusk : TTY=pts/0 ; PWD=/home/johnnymusk/backups ; USER=root ; COMMAND=/usr/bin/add-apt-repository ppa:deadsnakes/ppa
+2024-09-14T22:46:52.841206+01:00 mainframe sudo: pam_unix(sudo:session): session opened for user root(uid=0) by johnnymusk(uid=1000)
+2024-09-14T22:46:59.056686+01:00 mainframe sudo: pam_unix(sudo:session): session closed for user root
+2024-09-14T22:47:06.207755+01:00 mainframe sudo: johnnymusk : TTY=pts/0 ; PWD=/home/johnnymusk/backups ; USER=root ; COMMAND=/usr/bin/apt update
+2024-09-14T22:47:06.208560+01:00 mainframe sudo: pam_unix(sudo:session): session opened for user root(uid=0) by johnnymusk(uid=1000)
+2024-09-14T22:47:08.220948+01:00 mainframe sudo: pam_unix(sudo:session): session closed for user root
+2024-09-17T14:57:57.001916+01:00 mainframe sudo: pam_unix(sudo:auth): authentication failure; logname=johnnymusk uid=1000 euid=0 tty=/dev/pts/0 ruser=johnnymusk rhost=  user=johnnymusk
+2024-09-17T14:57:58.589387+01:00 mainframe sudo: johnnymusk : 1 incorrect password attempt ; TTY=pts/0 ; PWD=/home/johnnymusk/backups ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2024-09-17T14:58:01.404145+01:00 mainframe sudo: johnnymusk : TTY=pts/0 ; PWD=/home/johnnymusk/backups ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2024-09-17T14:58:01.405035+01:00 mainframe sudo: pam_unix(sudo:session): session opened for user root(uid=0) by johnnymusk(uid=1000)
+2024-09-17T14:58:01.816796+01:00 mainframe sudo: pam_unix(sudo:session): session closed for user root
+2024-09-17T14:58:09.086074+01:00 mainframe sudo: johnnymusk : TTY=pts/0 ; PWD=/home/johnnymusk/backups ; USER=root ; COMMAND=/usr/bin/apt install python3.8
+2024-09-17T14:58:09.086948+01:00 mainframe sudo: pam_unix(sudo:session): session opened for user root(uid=0) by johnnymusk(uid=1000)
+2024-09-17T14:58:10.323808+01:00 mainframe sudo: pam_unix(sudo:session): session closed for user root
+2024-09-17T14:58:11.324893+01:00 mainframe sudo: johnnymusk : TTY=pts/0 ; PWD=/home/johnnymusk/backups ; USER=root ; COMMAND=/usr/bin/apt install python3.8
+2024-09-17T14:58:11.325638+01:00 mainframe sudo: pam_unix(sudo:session): session opened for user root(uid=0) by johnnymusk(uid=1000)
+2024-09-17T14:58:13.136985+01:00 mainframe dbus-daemon[880]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2024-09-17T14:58:19.891841+01:00 mainframe sudo: pam_unix(sudo:session): session closed for user root
+2024-09-17T15:03:13.279735+01:00 mainframe sudo: johnnymusk : TTY=pts/0 ; PWD=/home/johnnymusk/backups ; USER=root ; COMMAND=/usr/bin/apt install vlc
+2024-09-17T15:03:13.280691+01:00 mainframe sudo: pam_unix(sudo:session): session opened for user root(uid=0) by johnnymusk(uid=1000)
+2024-09-17T15:03:23.933921+01:00 mainframe sudo: pam_unix(sudo:session): session closed for user root
+2024-09-17T15:03:33.324497+01:00 mainframe sudo: johnnymusk : TTY=pts/0 ; PWD=/home/johnnymusk/backups ; USER=root ; COMMAND=/usr/bin/apt install keepassxc
+2024-09-17T15:03:33.325055+01:00 mainframe sudo: pam_unix(sudo:session): session opened for user root(uid=0) by johnnymusk(uid=1000)
+2024-09-17T15:03:39.168708+01:00 mainframe sudo: pam_unix(sudo:session): session closed for user root
+2024-09-17T15:05:01.855901+01:00 mainframe CRON[18695]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-09-17T15:05:01.857807+01:00 mainframe CRON[18695]: pam_unix(cron:session): session closed for user root
+2024-09-19T16:13:18.891295+01:00 mainframe systemd-logind[924]: Power key pressed short.
+2024-09-19T16:13:18.896084+01:00 mainframe systemd-logind[924]: The system will power off now!
+2024-09-19T16:13:18.913445+01:00 mainframe systemd-logind[924]: System is powering down.
+2024-09-19T16:13:18.926413+01:00 mainframe gdm-password]: pam_unix(gdm-password:session): session closed for user johnnymusk
+2024-09-19T16:13:41.324538+01:00 mainframe systemd-logind[847]: New seat seat0.
+2024-09-19T16:13:41.324541+01:00 mainframe systemd-logind[847]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-09-19T16:13:41.324545+01:00 mainframe systemd-logind[847]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2024-09-19T16:13:41.341783+01:00 mainframe polkitd[814]: Loading rules from directory /etc/polkit-1/rules.d
+2024-09-19T16:13:41.341946+01:00 mainframe polkitd[814]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-09-19T16:13:41.361309+01:00 mainframe polkitd[814]: Finished loading, compiling and executing 16 rules
+2024-09-19T16:13:41.363702+01:00 mainframe polkitd[814]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-09-19T16:13:42.078657+01:00 mainframe gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-09-19T16:13:42.101399+01:00 mainframe systemd-logind[847]: New session c1 of user gdm.
+2024-09-19T16:13:42.120607+01:00 mainframe (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-09-19T16:13:43.890512+01:00 mainframe polkitd[814]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-09-19T16:13:54.446224+01:00 mainframe gdm-password]: gkr-pam: unable to locate daemon control file
+2024-09-19T16:13:54.446433+01:00 mainframe gdm-password]: gkr-pam: stashed password to try later in open session
+2024-09-19T16:13:54.459527+01:00 mainframe gdm-password]: pam_unix(gdm-password:session): session opened for user johnnymusk(uid=1000) by johnnymusk(uid=0)
+2024-09-19T16:13:54.474468+01:00 mainframe systemd-logind[847]: New session 2 of user johnnymusk.
+2024-09-19T16:13:54.494646+01:00 mainframe (systemd): pam_unix(systemd-user:session): session opened for user johnnymusk(uid=1000) by johnnymusk(uid=0)
+2024-09-19T16:13:54.737014+01:00 mainframe gdm-password]: gkr-pam: unlocked login keyring
+2024-09-19T16:13:55.029731+01:00 mainframe gnome-keyring-daemon[1671]: The Secret Service was already initialized
+2024-09-19T16:13:55.031496+01:00 mainframe gnome-keyring-daemon[1854]: discover_other_daemon: 1
+2024-09-19T16:13:55.036484+01:00 mainframe gnome-keyring-daemon[1671]: The PKCS#11 component was already initialized
+2024-09-19T16:13:55.036873+01:00 mainframe gnome-keyring-daemon[1858]: discover_other_daemon: 1
+2024-09-19T16:13:55.037608+01:00 mainframe gnome-keyring-daemon[1861]: discover_other_daemon: 1
+2024-09-19T16:13:56.111915+01:00 mainframe polkitd[814]: Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-09-19T16:13:56.595655+01:00 mainframe gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-09-19T16:13:56.611822+01:00 mainframe systemd-logind[847]: Session c1 logged out. Waiting for processes to exit.
+2024-09-19T16:13:56.636610+01:00 mainframe polkitd[814]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-09-19T16:13:56.638101+01:00 mainframe systemd-logind[847]: Removed session c1.
+2024-09-19T16:14:06.763615+01:00 mainframe (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2024-09-19T16:14:32.388082+01:00 mainframe systemd-logind[847]: Power key pressed short.
+2024-09-19T16:14:32.391632+01:00 mainframe systemd-logind[847]: The system will power off now!
+2024-09-19T16:14:32.405709+01:00 mainframe systemd-logind[847]: System is powering down.
+2024-09-19T16:14:32.421218+01:00 mainframe gdm-password]: pam_unix(gdm-password:session): session closed for user johnnymusk
+2024-09-19T16:14:39.722501+01:00 mainframe systemd-logind[634]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-09-19T16:14:39.722504+01:00 mainframe systemd-logind[634]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2024-09-19T16:14:39.722507+01:00 mainframe systemd-logind[634]: New seat seat0.
+2024-09-19T16:14:39.792588+01:00 mainframe polkitd[596]: Loading rules from directory /etc/polkit-1/rules.d
+2024-09-19T16:14:39.792692+01:00 mainframe polkitd[596]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-09-19T16:14:39.792736+01:00 mainframe polkitd[596]: Finished loading, compiling and executing 16 rules
+2024-09-19T16:14:39.792829+01:00 mainframe polkitd[596]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-09-19T16:14:40.684158+01:00 mainframe gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-09-19T16:14:40.690510+01:00 mainframe systemd-logind[634]: New session c1 of user gdm.
+2024-09-19T16:14:40.723191+01:00 mainframe (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-09-19T16:14:41.898212+01:00 mainframe polkitd[596]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-09-19T16:15:01.374591+01:00 mainframe CRON[1620]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-09-19T16:15:01.376691+01:00 mainframe CRON[1620]: pam_unix(cron:session): session closed for user root
+2024-09-19T16:15:04.159276+01:00 mainframe systemd-logind[634]: Power key pressed short.
+2024-09-19T16:15:04.162880+01:00 mainframe systemd-logind[634]: The system will power off now!
+2024-09-19T16:15:04.175522+01:00 mainframe systemd-logind[634]: System is powering down.
+2024-09-19T16:15:12.068917+01:00 mainframe systemd-logind[870]: New seat seat0.
+2024-09-19T16:15:12.068923+01:00 mainframe systemd-logind[870]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-09-19T16:15:12.068929+01:00 mainframe systemd-logind[870]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2024-09-19T16:15:12.068944+01:00 mainframe polkitd[836]: Loading rules from directory /etc/polkit-1/rules.d
+2024-09-19T16:15:12.068950+01:00 mainframe polkitd[836]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-09-19T16:15:12.068977+01:00 mainframe polkitd[836]: Finished loading, compiling and executing 16 rules
+2024-09-19T16:15:12.068984+01:00 mainframe polkitd[836]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-09-19T16:15:12.728010+01:00 mainframe gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-09-19T16:15:12.749248+01:00 mainframe systemd-logind[870]: New session c1 of user gdm.
+2024-09-19T16:15:12.768202+01:00 mainframe (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-09-19T16:15:13.945678+01:00 mainframe polkitd[836]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-09-19T16:15:18.981911+01:00 mainframe gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=johnnymusk
+2024-09-19T16:15:22.897086+01:00 mainframe gdm-password]: gkr-pam: unable to locate daemon control file
+2024-09-19T16:15:22.897614+01:00 mainframe gdm-password]: gkr-pam: stashed password to try later in open session
+2024-09-19T16:15:22.909844+01:00 mainframe gdm-password]: pam_unix(gdm-password:session): session opened for user johnnymusk(uid=1000) by johnnymusk(uid=0)
+2024-09-19T16:15:22.925334+01:00 mainframe systemd-logind[870]: New session 2 of user johnnymusk.
+2024-09-19T16:15:22.944394+01:00 mainframe (systemd): pam_unix(systemd-user:session): session opened for user johnnymusk(uid=1000) by johnnymusk(uid=0)
+2024-09-19T16:15:23.186509+01:00 mainframe gdm-password]: gkr-pam: unlocked login keyring
+2024-09-19T16:15:24.369288+01:00 mainframe gnome-keyring-daemon[1700]: The Secret Service was already initialized
+2024-09-19T16:15:24.370968+01:00 mainframe gnome-keyring-daemon[1899]: discover_other_daemon: 1
+2024-09-19T16:15:24.391758+01:00 mainframe gnome-keyring-daemon[1700]: The PKCS#11 component was already initialized
+2024-09-19T16:15:24.391970+01:00 mainframe gnome-keyring-daemon[1905]: discover_other_daemon: 1
+2024-09-19T16:15:24.392674+01:00 mainframe gnome-keyring-daemon[1906]: discover_other_daemon: 1
+2024-09-19T16:15:25.489598+01:00 mainframe polkitd[836]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-09-19T16:15:26.072297+01:00 mainframe gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-09-19T16:15:26.091977+01:00 mainframe systemd-logind[870]: Session c1 logged out. Waiting for processes to exit.
+2024-09-19T16:15:26.149280+01:00 mainframe polkitd[836]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-09-19T16:15:26.154869+01:00 mainframe systemd-logind[870]: Removed session c1.
+2024-09-19T16:17:01.234815+01:00 mainframe CRON[2929]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-09-19T16:17:01.237131+01:00 mainframe CRON[2929]: pam_unix(cron:session): session closed for user root
+2024-09-19T16:21:14.379507+01:00 mainframe systemd-logind[870]: Power key pressed short.
+2024-09-19T16:21:14.383566+01:00 mainframe systemd-logind[870]: The system will power off now!
+2024-09-19T16:21:14.398725+01:00 mainframe systemd-logind[870]: System is powering down.
+                                                                                                                             2024-09-19T16:21:49.341444+01:00 mainframe systemd-logind[758]: New seat seat0.
+2024-09-19T16:21:49.341447+01:00 mainframe systemd-logind[758]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-09-19T16:21:49.341450+01:00 mainframe systemd-logind[758]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2024-09-19T16:21:49.405779+01:00 mainframe polkitd[723]: Loading rules from directory /etc/polkit-1/rules.d
+2024-09-19T16:21:49.406101+01:00 mainframe polkitd[723]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-09-19T16:21:49.420460+01:00 mainframe polkitd[723]: Finished loading, compiling and executing 16 rules
+2024-09-19T16:21:49.426704+01:00 mainframe polkitd[723]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-09-19T16:21:50.186016+01:00 mainframe gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-09-19T16:21:50.198192+01:00 mainframe systemd-logind[758]: New session c1 of user gdm.
+2024-09-19T16:21:50.234588+01:00 mainframe (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-09-19T16:21:51.540635+01:00 mainframe polkitd[723]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-09-19T16:22:33.483351+01:00 mainframe gdm-password]: gkr-pam: unable to locate daemon control file
+2024-09-19T16:22:33.483528+01:00 mainframe gdm-password]: gkr-pam: stashed password to try later in open session
+2024-09-19T16:22:33.496718+01:00 mainframe gdm-password]: pam_unix(gdm-password:session): session opened for user johnnymusk(uid=1000) by johnnymusk(uid=0)
+2024-09-19T16:22:33.507860+01:00 mainframe systemd-logind[758]: New session 2 of user johnnymusk.
+2024-09-19T16:22:33.533745+01:00 mainframe (systemd): pam_unix(systemd-user:session): session opened for user johnnymusk(uid=1000) by johnnymusk(uid=0)
+2024-09-19T16:22:33.820310+01:00 mainframe gdm-password]: gkr-pam: unlocked login keyring
+2024-09-19T16:22:34.198333+01:00 mainframe gnome-keyring-daemon[1570]: The Secret Service was already initialized
+2024-09-19T16:22:34.200315+01:00 mainframe gnome-keyring-daemon[1783]: discover_other_daemon: 1
+2024-09-19T16:22:34.201578+01:00 mainframe gnome-keyring-daemon[1570]: The PKCS#11 component was already initialized
+2024-09-19T16:22:34.202018+01:00 mainframe gnome-keyring-daemon[1787]: discover_other_daemon: 1
+2024-09-19T16:22:34.215209+01:00 mainframe gnome-keyring-daemon[1790]: discover_other_daemon: 1
+2024-09-19T16:22:35.293028+01:00 mainframe polkitd[723]: Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-09-19T16:22:35.792484+01:00 mainframe gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-09-19T16:22:35.803192+01:00 mainframe systemd-logind[758]: Session c1 logged out. Waiting for processes to exit.
+2024-09-19T16:22:35.843460+01:00 mainframe polkitd[723]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-09-19T16:22:35.852547+01:00 mainframe systemd-logind[758]: Removed session c1.
+2024-09-19T16:22:45.986640+01:00 mainframe (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2024-09-19T16:25:01.582375+01:00 mainframe CRON[2758]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-09-19T16:25:01.585710+01:00 mainframe CRON[2758]: pam_unix(cron:session): session closed for user root
