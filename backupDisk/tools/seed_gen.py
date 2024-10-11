@@ -1,10 +1,10 @@
 import hashlib
 SEED_PATH = 'seed.txt'
 
-COMPLETE_PATH = 'complete.txt'
+OUTPUT_PATH = 'seeds.txt'
 
 # RESET
-with open(COMPLETE_PATH, 'w') as f:
+with open(OUTPUT_PATH, 'w') as f:
     f.write('')
 with open(SEED_PATH, 'w') as f:
     f.write('TheBiteOf87')
@@ -25,7 +25,7 @@ for i in range(0, 78):
     # pw = hashlib.sha256(str(seed + str(sys.argv[1]).encode('utf-8'))
     # print(pw.hexdigest())
     next_seed = hashlib.sha256(str(seed).encode('utf-8'))
-    with open(COMPLETE_PATH, 'a') as f:
+    with open(OUTPUT_PATH, 'a') as f:
         f.write(next_seed.hexdigest() + '\n')
     with open(SEED_PATH, 'w') as f:
         f.write(str(n + 1) + '\t' + next_seed.hexdigest())

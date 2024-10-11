@@ -1,5 +1,5 @@
 import hashlib
-SEED_PATH = 'complete.txt'
+SEED_LIST_PATH = 'seeds.txt'
 WORDLIST_PATH = 'passwords.txt'
 passwords:list[str] = []
 
@@ -10,7 +10,7 @@ timestamps = [1727365201,1727365801,
 
 looking_for_n = 78 - len(timestamps) - 1
 
-with open(SEED_PATH, 'r') as f:
+with open(SEED_LIST_PATH, 'r') as f:
     seeds = f.readlines()
 
 for timestamp in timestamps:
