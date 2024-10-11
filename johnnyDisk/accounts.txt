@@ -1,0 +1,15 @@
+Backups:
+  User: JohnnyMusk
+  Pass: TheBiteOf87 
+
+Netflix:
+  User: johnnymuskhax
+  Pass: jibunwosekaisaemo
+
+Facebook:
+  User: "João Musk"
+  Pass: sweethomealabama
+
+Steam:
+  User: johnnymuskgar
+  Pass: leagueoflegends
